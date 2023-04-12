@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 // Route Views
@@ -15,7 +15,7 @@ import CartContainer from "../views/Cart/CartContainer";
 
 var PrivateRoutes = [
   {
-    path: "/fashion-cube/cart",
+    path: "/pandas/cart",
     layout: BaseLayout,
     component: CartContainer,
   },

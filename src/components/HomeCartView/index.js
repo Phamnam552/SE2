@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React, { Component } from "react";
@@ -17,7 +17,7 @@ class HomeCartView extends Component {
   }
 
   goToChechout = () => {
-    jumpTo("/fashion-cube/cart");
+    jumpTo("/pandas/cart");
   };
   render() {
     const { items, totalPrice } = this.props.cart;

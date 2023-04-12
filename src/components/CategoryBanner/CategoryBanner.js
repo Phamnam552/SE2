@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React from "react";
@@ -23,7 +23,7 @@ function CategoryBanner(props) {
               data-aos="fade-right"
             >
               <div className="banner_category">
-                <a href="categories.html">women's</a>
+                <a href="#"><span className="fancy">IPHONE</span></a>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ function CategoryBanner(props) {
               data-aos="fade-up"
             >
               <div className="banner_category">
-                <a href="categories.html">accessories's</a>
+                <a href="categories.html">Samsung</a>
               </div>
             </div>
           </div>
@@ -49,7 +49,47 @@ function CategoryBanner(props) {
               data-aos="fade-left"
             >
               <div className="banner_category">
-                <a href="categories.html">men's</a>
+                <a href="categories.html">Oppo</a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-md-4">
+            <div
+              className="banner_item align-items-center"
+              style={{
+                backgroundImage: `url(${Banner3})`
+              }}
+              data-aos="fade-left"
+            >
+              <div className="banner_category">
+                <a href="categories.html">Xiaomi</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div
+              className="banner_item align-items-center"
+              style={{
+                backgroundImage: `url(${Banner3})`
+              }}
+              data-aos="fade-left"
+            >
+              <div className="banner_category">
+                <a href="categories.html">Vivo</a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div
+              className="banner_item align-items-center"
+              style={{
+                backgroundImage: `url(${Banner3})`
+              }}
+              data-aos="fade-left"
+            >
+              <div className="banner_category">
+                <a href="categories.html">Asus</a>
               </div>
             </div>
           </div>

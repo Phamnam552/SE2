@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React, { Component } from "react";
@@ -24,46 +24,7 @@ class MobileMenu extends Component {
         </div>
         <div className="hamburger_menu_content text-right">
           <ul className="menu_top_nav">
-            <li className="menu_item has-children">
-              <a href="#">
-                usd
-                <i className="fa fa-angle-down"></i>
-              </a>
-              <ul className="menu_selection">
-                <li>
-                  <a href="#">cad</a>
-                </li>
-                <li>
-                  <a href="#">aud</a>
-                </li>
-                <li>
-                  <a href="#">eur</a>
-                </li>
-                <li>
-                  <a href="#">gbp</a>
-                </li>
-              </ul>
-            </li>
-            <li className="menu_item has-children">
-              <a href="#">
-                English
-                <i className="fa fa-angle-down"></i>
-              </a>
-              <ul className="menu_selection">
-                <li>
-                  <a href="#">French</a>
-                </li>
-                <li>
-                  <a href="#">Italian</a>
-                </li>
-                <li>
-                  <a href="#">German</a>
-                </li>
-                <li>
-                  <a href="#">Spanish</a>
-                </li>
-              </ul>
-            </li>
+            
             <li className="menu_item has-children">
               <a href="#">
                 My Account

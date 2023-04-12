@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React, { Component } from "react";
@@ -26,7 +26,7 @@ class PageNotFound extends Component {
             </p>
 
             <a
-              href="/fashion-cube"
+              href="/pandas"
               className="home-page-button button-dark-blue iq-mt-15 text-center"
             >
               GOTO HOME PAGE

@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React, { Component } from "react";
@@ -29,8 +29,6 @@ class LoginForm extends Component {
   };
 
   handleSubmit = () => {
-    // let email = "bob@bob.com";
-    // let password = "Ab123123";
     const { email, password } = this.state;
     if (!Validator(email, EMAIL_RULE)) {
       console.log("email Error");

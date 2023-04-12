@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React from "react";
@@ -14,7 +14,7 @@ function SingleProduct(props) {
       <div
         className="product discount product_filter"
         onClick={() =>
-          jumpTo(`/fashion-cube/single-product/${productItem._id}`)
+          jumpTo(`/pandas/single-product/${productItem._id}`)
         }
       >
         <div className="product_image">

@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React from "react";
@@ -22,19 +22,19 @@ function HorizontalFilter(Props) {
               className="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
               data-filter=".women"
             >
-              women's
+              IPHONE
             </li>
             <li
               className="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
               data-filter=".accessories"
             >
-              accessories
+              Samsung
             </li>
             <li
               className="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
               data-filter=".men"
             >
-              men's
+              Oppo
             </li>
           </ul>
         </div>

@@ -1,7 +1,7 @@
 /*
  ** Author: Santosh Kumar Dash
  ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Github URL: https://github.com/quintuslabs/pandas
  */
 
 import React, { Component } from "react";
@@ -42,8 +42,8 @@ class NavBar extends Component {
           <div className="row">
             <div className="col-lg-12 text-right">
               <div className="logo_container">
-                <Link to="/fashion-cube">
-                  Fashion<span>Cube</span>
+                <Link to="/pandas">
+                  Pandas<span> Shop</span>
                 </Link>
               </div>
               <nav className="navbar">
@@ -68,7 +68,7 @@ class NavBar extends Component {
                                     return (
                                       <li key={idx}>
                                         <a
-                                          href={`/fashion-cube/shops/${item.departmentName}/${i}`}
+                                          href={`/pandas/shops/${item.departmentName}/${i}`}
                                         >
                                           {i}
                                         </a>
